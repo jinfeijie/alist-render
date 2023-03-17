@@ -1,7 +1,11 @@
 # alist-render
 
-### Deploy Alist to Render
+  ### 部署 Alist 到 Render
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
 
-### password
-The initial password is randomly generated, and you can get it by checking the `logs`.
+### 密码
+部署完成了，去日志里看密码。
+![image](https://user-images.githubusercontent.com/8290380/225863797-5ba52169-6c37-4826-a775-d4b7770926da.png)
+
+### 注意
+免费版性能不太好，能用就完球了
