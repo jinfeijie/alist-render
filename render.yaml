@@ -3,7 +3,7 @@ services:
   - type: web
     name: alist
     env: docker
-    repo: https://github.com/alist-org/alist-render.git # optional
+    repo: https://github.com/jinfeijie/alist-render.git # optional
     region: oregon # optional (defaults to oregon)
     plan: free # optional (defaults to starter)
     healthCheckPath: /
@@ -13,24 +13,8 @@ services:
       - key: DB_TYPE
         # value: sqlite3
         sync: false
-      - key: DB_HOST
-        # value: db_host
-        sync: false
-      - key: DB_PORT
-        # value: 3306
-        sync: false
-      - key: DB_USER
-        # value: db_user
-        sync: false
-      - key: DB_PASS
-        # value: db_password
-        sync: false
-      - key: DB_NAME
-        # value: db_name
-        sync: false
       - key: DB_TABLE_PREFIX
         # value: alist_
         sync: false
       - key: CDN
-        # value: https://npm.elemecdn.com/alist-web@$version/dist
         sync: false
