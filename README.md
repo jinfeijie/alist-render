@@ -9,3 +9,6 @@
 
 ### 注意
 免费版性能不太好，能用就完球了
+
+### 免费额度
+![image](https://user-images.githubusercontent.com/8290380/225864229-edb9489f-8f3f-48df-a33e-91ccdc452b72.png)
