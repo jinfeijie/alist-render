@@ -1,11 +1,10 @@
 services:
-  # A Docker web service
   - type: web
     name: alist
     env: docker
     repo: https://github.com/jinfeijie/alist-render.git # optional
-    region: oregon # optional (defaults to oregon)
-    plan: free # optional (defaults to starter)
+    region: singapore
+    plan: free
     healthCheckPath: /
     envVars:
       - key: PORT
