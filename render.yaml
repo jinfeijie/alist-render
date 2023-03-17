@@ -11,10 +11,8 @@ services:
       - key: PORT
         value: 5244
       - key: DB_TYPE
-        # value: sqlite3
+        value: sqlite3
         sync: false
       - key: DB_TABLE_PREFIX
-        # value: alist_
-        sync: false
-      - key: CDN
+        value: alist_
         sync: false
